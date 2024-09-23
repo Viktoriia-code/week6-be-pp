@@ -16,7 +16,11 @@ describe('User Routes', () => {
       const userData = {
         email: 'test@example.com',
         password: 'R3g5T7#gh',
-        name:"sami"
+        name:"sami",
+        phone_number: "1234567890",
+        gender: "Male",
+        date_of_birth: "1990-01-01",
+        membership_status: "Inactive",
       };
 
       // Act
